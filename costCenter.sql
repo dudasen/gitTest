@@ -1,3 +1,4 @@
+--SQLAPPRCH01P
 SELECT ldap.dn, detail.EmpNum, detail.ManagerID, detail.FirstName, detail.LastName, detail.MI, department.DepartmentName, position.PositionName, detail.Email, 
                   detail.ManagerEmail, detail.HireDate, detail.ReHireDate, detail.TerminationDate, detail.Type,
                       (SELECT dn
